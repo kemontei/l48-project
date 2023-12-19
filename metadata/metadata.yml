@@ -1,0 +1,34 @@
+metadata_version: 1
+name: Bayesian Reaction Optimization as A Tool for Chemical Synthesis
+description: 'Experimental Design via Bayesian Optimization: edbo is a practical implementation of Bayesian optimization for chemical synthesis.'
+authors:
+- name: Benjamin J. Shields
+  affiliations:
+  - name: Department of Chemistry, Princeton University, Princeton, New Jersey 08544, USA
+- name: ' Jason Stevens'
+  affiliations:
+  - name: Chemical Process Development, Bristol-Myers Squibb, 1 Squibb Dr, New Brunswick, New Jersey 08901, USA
+- name: Jun Li
+  affiliations:
+  - name: Chemical Process Development, Bristol-Myers Squibb, 1 Squibb Dr, New Brunswick, New Jersey 08901, USA
+- name: Marvin Parasram
+  affiliations:
+  - name: Department of Chemistry, Princeton University, Princeton, New Jersey 08544, USA
+- name: Farhan Damani
+  affiliations:
+  - name: Department of Computer Science, Princeton University, Princeton, New Jersey 08544, USA
+- name: Jacob Janey
+  affiliations:
+  - name: Chemical Process Development, Bristol-Myers Squibb, 1 Squibb Dr, New Brunswick, New Jersey 08901, USA
+- name: Ryan P. Adams
+  affiliations:
+  - name: Department of Computer Science, Princeton University, Princeton, New Jersey 08544, USA
+- name: 'Abigail G. Doyle '
+  affiliations:
+  - name: Department of Chemistry, Princeton University, Princeton, New Jersey 08544, USA
+- name: Jesus I. Martinez Alvarado
+  affiliations:
+  - name: Department of Chemistry, Princeton University, Princeton, New Jersey
+corresponding_contributor:
+  name: 'Abigail G. Doyle '
+  email: agdoyle@princeton.edu

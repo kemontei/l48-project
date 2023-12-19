@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+set -ex
+
+################################################# Install edbo
+
+python setup.py develop
+
+################################################# Run some tests
+
+#cd ~/capsule/code/tests
+#pytest 1d_test_fast.py
+
+################################################# Simulation notebook
+  
+jupyter nbconvert \
+  --ExecutePreprocessor.allow_errors=True \
+  --ExecutePreprocessor.timeout=-1 \
+  --output-dir=../results \
+  --to='html' \
+  --execute edbo_demo_and_simulations.ipynb
