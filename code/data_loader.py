@@ -318,7 +318,8 @@ def direct_arylation_extended(base='ohe', ligand='ohe', solvent='ohe'):
     return experiment_index
 
 def casp():
-    
     casp_features = pd.read_csv('../data/casp/casp.csv')
-    
     return casp_features
+
+def casp15():
+    return pd.read_csv('../data/CASP15/Preprocessing/Dataset/CASP15_global_error.csv')
