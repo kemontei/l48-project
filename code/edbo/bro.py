@@ -112,7 +112,7 @@ class BO:
         outputscale_prior : [gytorch.prior, initial_value]
             Specify a prior over GP output scale prameter.
         noise_prior : [gytorch.prior, initial_value]
-            Specify a prior over GP noice prameter.
+            Specify a prior over GP noise prameter.
         computational_objective : function, optional
             Function to be optimized for computational objectives.
             
