@@ -321,5 +321,5 @@ def casp():
     casp_features = pd.read_csv('../data/casp/casp.csv')
     return casp_features
 
-def casp15():
+def load_CASP15():
     return pd.read_csv('../data/CASP15/Preprocessing/Dataset/CASP15_global_error.csv')
