@@ -358,7 +358,7 @@ class BO:
     
     # Acquisition summary
     def acquisition_summary(self):
-        """Summarize predicted mean and variance for porposed points.
+        """Summarize predicted mean and variance for proposed points.
         
         Returns
         ----------
